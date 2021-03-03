@@ -16,7 +16,7 @@ This program requires a few of things to work properly. First this is a Python t
 Secondly, in order to run the WHOIS lookup, the `whois` command line utility needs to be installed on your machine. Luckily,
 on many modern systems this comes pre-installed. For instructions about how to download and install this program if it is
 missing from your system, examine the instruction via one of the links below that matches the Operating System you're using:
-WHOIS for: [Linux](https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/), [Mac OS](https://formulae.brew.sh/formula/whois), [Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/whois)
+WHOIS for: [Linux](https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/), [Mac OS](https://formulae.brew.sh/formula/whois), [Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/whois). 
 This tool will perform a WHOIS lookup and then, for multiple addresses, parse the data returned and allow you to export it
 to either CSV or JSON format.
 ```
@@ -44,7 +44,7 @@ Python 3 is essential for running this program and, while not required, I always
 python virtual environment (venv) or (pipenv) when running this tool in order to keep your workspace isolated.
 
 If you already know you have an appropriate version of Python installed on your system, you can skip to either
-Setting up a [Virtual Environment](#Virtual Environment), installing the [Requirements](#Requirements), or directly to [Usage](#Usage) 
+Setting up a [Virtual Environment](#VirtualEnvironment), installing the [Requirements](#Requirements), or directly to [Usage](#Usage) 
 if all the other Prerequisites have been met.
 
 If you know you're missing Python3, you can find and download the appropriate package for your OS via the link below.
@@ -179,7 +179,7 @@ $ python -m pip install --user --upgrade pip
 $ python3 -m pip install --user --upgrade pip
 ```
 
-## Virtual Environment
+## VirtualEnvironment
 
 It is recommended that you create a virtual environment in order to perform operations with this program on your system, 
 this will need to be accomplished before installing any further dependencies this tool relies on.
