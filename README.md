@@ -218,9 +218,7 @@ $ python -m venv env
 $ python3 -m venv env
 ```
 
-Note: The second argument is the location to create the virtual environment.
-so accourding to the above commands: venv will create a virtual Python installation in the env folder.
-In general, you can simply create this in your project yourself and call it env (or whatever you want).
+Note: The second argument is the location to create the virtual environment. Therefore, according to the above command, 'venv' will create a virtual Python installation in the 'env' directory. In general, you can simply create this in your project yourself and call it env (or whatever you want).
 
 Tip: You should be sure to exclude your virtual environment directory from your version control system using .gitignore or similar.
 
