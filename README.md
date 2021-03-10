@@ -184,7 +184,7 @@ $ python3 -m pip install --user --upgrade pip
 It is recommended that you create a virtual environment in order to perform operations with this program on your system, 
 this will need to be accomplished before installing any further dependencies this tool relies on.
 The 'venv' module is the preferred way to create and manage virtual environments for this tool. 
-Luckily since Python 3.3m venv is included in the Python standard library.
+Luckily since Python 3.3x venv is included in the Python standard library.
  Below are the steps needed to create a virtual environment and activate it in the working directory for this tool.
 
 ### Linux
