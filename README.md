@@ -258,11 +258,11 @@ The main external library that this tool requires is the `resuests` module, whic
 Included in this repository should be a 'requirements.txt' file, with the required libraries formatted as shown below.
 
 ```
-certifi==2020.12.5
-chardet==4.0.0
-idna==2.10
-requests==2.25.1
-urllib3==1.26.3
+certifi==2022.9.24
+chardet==5.0.0
+idna==3.4
+requests==2.28.1
+urllib3==1.26.12
 
 ```
 
